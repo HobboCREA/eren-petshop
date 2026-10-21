@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#246b52">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Pati & Dost — minik dostlarınız için özenle seçilmiş mama, oyuncak ve bakım ürünleri.">
+<title>Pati & Dost | Mutlu patiler, mutlu evler</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="welcome-overlay" id="welcome-photo" role="dialog" aria-modal="true" aria-label="Hoş geldiniz">
+  <div class="welcome-card welcome-slider">
+    <button class="welcome-close" id="welcome-close" aria-label="Fotoğrafı kapat">×</button>
+    <div class="welcome-slides">
+      <img class="welcome-slide active" src="slider-cat-1.jpg" alt="Taşıma çantasında kedimiz">
+      <img class="welcome-slide" src="slider-cat-2.jpg" alt="Dışarıda oturan kedimiz">
+      <img class="welcome-slide" src="slider-cat-3.jpg" alt="Pastasının yanında kedimizin doğum günü">
+      <img class="welcome-slide" src="slider-cat-4.jpg" alt="İki yaş pastasının yanında kedimiz">
+      <img class="welcome-slide" src="slider-cat-5.jpg" alt="Yakından sevimli kedimiz">
+    </div>
+    <button class="welcome-arrow welcome-prev" type="button" aria-label="Önceki fotoğraf">‹</button>
+    <button class="welcome-arrow welcome-next" type="button" aria-label="Sonraki fotoğraf">›</button>
+    <div class="welcome-dots">
+      <button class="welcome-dot active" type="button" aria-label="1. fotoğraf"></button>
+      <button class="welcome-dot" type="button" aria-label="2. fotoğraf"></button>
+      <button class="welcome-dot" type="button" aria-label="3. fotoğraf"></button>
+      <button class="welcome-dot" type="button" aria-label="4. fotoğraf"></button>
+      <button class="welcome-dot" type="button" aria-label="5. fotoğraf"></button>
+    </div>
+    <p>Minik dostumuzdan kocaman bir merhaba 🐾</p>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a class="logo" href="#"><span class="mark">🐾</span>Pati <i>&</i> Dost</a>
+    <button class="toggle" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    <nav class="menu" aria-label="Ana menü">
+      <a href="#">Ana Sayfa</a><a href="#kategoriler">Kategoriler</a><a href="#urunler">Ürünler</a><a href="#hakkimizda">Hakkımızda</a>
+    </nav>
+    <a class="cart" href="#urunler" aria-live="polite">♡ <span>Sepet</span></a>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <span class="eyebrow hero-in" style="--d:.05s">PATİLİ DOSTLAR İÇİN ÖZENLE</span>
+      <h1 class="hero-in" style="--d:.15s">Onların mutluluğu,<br><em>bizim önceliğimiz.</em></h1>
+      <p class="hero-in" style="--d:.25s">Minik dostlarınız için özenle seçilmiş mama, oyuncak ve bakım ürünleri. Çünkü onlar en iyisini hak ediyor.</p>
+      <div class="actions hero-in" style="--d:.35s"><a class="btn" href="#urunler">Alışverişe başla <b>→</b></a><a class="btn ghost" href="#kategoriler">Koleksiyonları keşfet</a></div>
+      <div class="social-proof hero-in" style="--d:.45s"><span>🐶</span><span>🐱</span><span>🐰</span><small><b id="social-count">1.200</b>+ mutlu pati bize güveniyor</small></div>
+    </div>
+    <div class="hero-image hero-slider hero-in" style="--d:.3s" aria-label="Pati & Dost fotoğraf galerisi">
+      <img class="hero-slide active" src="slider-cat-1.jpg" alt="Taşıma çantasında sevimli kedimiz" loading="eager">
+      <img class="hero-slide" src="slider-cat-2.jpg" alt="Dışarıda oturan kedimiz" loading="lazy">
+      <img class="hero-slide" src="slider-cat-3.jpg" alt="Pastasının yanında kedimizin doğum günü" loading="lazy">
+      <img class="hero-slide" src="slider-cat-4.jpg" alt="İki yaş pastasının yanında kedimiz" loading="lazy">
+      <img class="hero-slide" src="slider-cat-5.jpg" alt="Yakından sevimli kedimiz" loading="lazy">
+      <div class="photo-label">🐾 Dostunuz için seçildi<strong>Sevgiyle, Pati & Dost</strong></div>
+      <button class="slide-arrow slide-prev" type="button" aria-label="Önceki görsel">‹</button><button class="slide-arrow slide-next" type="button" aria-label="Sonraki görsel">›</button>
+      <div class="slide-dots" aria-label="Görsel seçimi"><button class="slide-dot active" aria-label="1. görsel"></button><button class="slide-dot" aria-label="2. görsel"></button><button class="slide-dot" aria-label="3. görsel"></button><button class="slide-dot" aria-label="4. görsel"></button><button class="slide-dot" aria-label="5. görsel"></button></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="kategoriler">
+  <div class="wrap">
+    <div class="heading reveal"><div><span class="eyebrow">İHTİYACI NE OLURSA OLSUN</span><h2>Her pati için<br>bir güzellik var.</h2></div><p>Günlük ihtiyaçlardan minik sürprizlere, dostunuzun mutluluğu için aradığınız her şey bir arada.</p></div>
+    <div class="categories">
+      <a class="category cat1 reveal" href="#urunler" data-filter="kedi"><span>🐈</span><div><h3>Kediler</h3><p>Mama, oyuncak, bakım ve daha fazlası</p></div><b>↗</b></a>
+      <a class="category cat2 reveal" href="#urunler" data-filter="köpek"><span>🐕</span><div><h3>Köpekler</h3><p>Gezinti, oyun, beslenme ve bakım</p></div><b>↗</b></a>
+      <a class="category cat3 reveal" href="#urunler" data-filter="küçük-dostlar"><span>🐇</span><div><h3>Küçük dostlar</h3><p>Tavşanlar ve minik arkadaşlara</p></div><b>↗</b></a>
+      <a class="category cat4 reveal" href="#urunler" data-filter="kuş"><span>🦜</span><div><h3>Kuşlar</h3><p>Renkli kanatlara özel güzellikler</p></div><b>↗</b></a>
+    </div>
+  </div>
+</section>
+<section class="section tinted" id="urunler">
+  <div class="wrap">
+    <div class="heading reveal"><div><span class="eyebrow">PATİLERİN GÖZDESİ</span><h2>Çok sevilenler.</h2></div><a class="more" href="#urunler">Tüm ürünleri gör →</a></div>
+    <div class="product-filters reveal" aria-label="Ürün kategorisi">
+      <button class="filter-button active" type="button" data-product-filter="all">Tüm ürünler</button><button class="filter-button" type="button" data-product-filter="kedi">Kediler</button><button class="filter-button" type="button" data-product-filter="köpek">Köpekler</button><button class="filter-button" type="button" data-product-filter="kuş">Kuşlar</button><button class="filter-button" type="button" data-product-filter="küçük-dostlar">Küçük dostlar</button>
+    </div>
+    <div class="products">
+      <article class="product reveal" data-category="kedi" data-name="Somonlu Yetişkin Kedi Maması" data-price="649.00"><div class="product-pic"><img src="product-photos/cat-food.jpg" alt="Somonlu Yetişkin Kedi Maması" loading="lazy" decoding="async"><span class="tag">Çok sevilen</span></div><div class="product-info"><small>KEDİ</small><h3>Somonlu Yetişkin Kedi Maması</h3><div class="product-foot"><strong>₺649,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Doğal Ahşap Kedi Evi" data-price="1290.00"><div class="product-pic"><img src="product-photos/cat-house.jpg" alt="Doğal Ahşap Kedi Evi" loading="lazy" decoding="async"><span class="tag">Doğal</span></div><div class="product-info"><small>KEDİ</small><h3>Doğal Ahşap Kedi Evi</h3><div class="product-foot"><strong>₺1.290,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Rahat Gezdirme Tasması" data-price="389.00"><div class="product-pic"><img src="product-photos/dog-leash.jpg" alt="Rahat Gezdirme Tasması" loading="lazy" decoding="async"><span class="tag">Yeni</span></div><div class="product-info"><small>KÖPEK</small><h3>Rahat Gezdirme Tasması</h3><div class="product-foot"><strong>₺389,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Konforlu Pati Yatağı" data-price="899.00"><div class="product-pic"><img src="product-photos/dog-bed.jpg" alt="Köpek yatağında dinlenen köpek" loading="lazy" decoding="async"><span class="tag">Favori</span></div><div class="product-info"><small>KÖPEK</small><h3>Konforlu Pati Yatağı</h3><div class="product-foot"><strong>₺899,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Tüylü Kedi Oltası" data-price="179.00"><div class="product-pic"><img src="product-photos/cat-toy.jpg" alt="Tüylü Kedi Oltası" loading="lazy" decoding="async"><span class="tag">Eğlenceli</span></div><div class="product-info"><small>KEDİ</small><h3>Tüylü Kedi Oltası</h3><div class="product-foot"><strong>₺179,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Tavuklu Eğitim Ödülü" data-price="249.00"><div class="product-pic"><img src="product-photos/dog-treat.jpg" alt="Tavuklu Eğitim Ödülü" loading="lazy" decoding="async"><span class="tag">Lezzetli</span></div><div class="product-info"><small>KÖPEK</small><h3>Tavuklu Eğitim Ödülü</h3><div class="product-foot"><strong>₺249,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Doğal Sisal Tırmalama Tahtası" data-price="459.00"><div class="product-pic"><img src="product-photos/cat-scratch.jpg" alt="Doğal Sisal Tırmalama Tahtası" loading="lazy" decoding="async"><span class="tag">Pratik</span></div><div class="product-info"><small>KEDİ</small><h3>Doğal Sisal Tırmalama Tahtası</h3><div class="product-foot"><strong>₺459,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Ayarlanabilir Göğüs Tasması" data-price="529.00"><div class="product-pic"><img src="product-photos/dog-harness.jpg" alt="Ayarlanabilir Göğüs Tasması" loading="lazy" decoding="async"><span class="tag">Günlük kullanım</span></div><div class="product-info"><small>KÖPEK</small><h3>Ayarlanabilir Göğüs Tasması</h3><div class="product-foot"><strong>₺529,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kuş" data-name="Doğal Ahşap Kuş Oyuncağı" data-price="219.00"><div class="product-pic"><img src="product-photos/bird-toy.jpg" alt="Doğal Ahşap Kuş Oyuncağı" loading="lazy" decoding="async"><span class="tag">Renkli</span></div><div class="product-info"><small>KUŞ</small><h3>Doğal Ahşap Kuş Oyuncağı</h3><div class="product-foot"><strong>₺219,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Seramik Mama ve Su Kabı" data-price="329.00"><div class="product-pic"><img src="product-photos/cat-bowl.jpg" alt="Seramik Mama ve Su Kabı" loading="lazy" decoding="async"><span class="tag">Şık tasarım</span></div><div class="product-info"><small>KEDİ</small><h3>Seramik Mama ve Su Kabı</h3><div class="product-foot"><strong>₺329,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Tavuklu Yetişkin Kedi Maması" data-price="579.00"><div class="product-pic"><img src="product-photos/cat-food.jpg" alt="Tavuklu Yetişkin Kedi Maması" loading="lazy" decoding="async"><span class="tag">Besleyici</span></div><div class="product-info"><small>KEDİ</small><h3>Tavuklu Yetişkin Kedi Maması</h3><div class="product-foot"><strong>₺579,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Kısırlaştırılmış Kedi Maması" data-price="629.00"><div class="product-pic"><img src="product-photos/cat-neuter-food.jpg" alt="Kısırlaştırılmış Kedi Maması" loading="lazy" decoding="async"><span class="tag">Özel seri</span></div><div class="product-info"><small>KEDİ</small><h3>Kısırlaştırılmış Kedi Maması</h3><div class="product-foot"><strong>₺629,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Yavru Kedi Başlangıç Maması" data-price="499.00"><div class="product-pic"><img src="product-photos/cat-kitten-food.jpg" alt="Yavru Kedi Başlangıç Maması" loading="lazy" decoding="async"><span class="tag">Yavru dostlara</span></div><div class="product-info"><small>KEDİ</small><h3>Yavru Kedi Başlangıç Maması</h3><div class="product-foot"><strong>₺499,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Somonlu Yaş Mama Paketi" data-price="149.00"><div class="product-pic"><img src="product-photos/cat-wet-food.jpg" alt="Somonlu Yaş Mama Paketi" loading="lazy" decoding="async"><span class="tag">Lezzetli</span></div><div class="product-info"><small>KEDİ</small><h3>Somonlu Yaş Mama Paketi</h3><div class="product-foot"><strong>₺149,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Doğal Topaklayan Kedi Kumu" data-price="289.00"><div class="product-pic"><img src="product-photos/cat-litter.jpg" alt="Doğal Topaklayan Kedi Kumu" loading="lazy" decoding="async"><span class="tag">Koku kontrolü</span></div><div class="product-info"><small>KEDİ</small><h3>Doğal Topaklayan Kedi Kumu</h3><div class="product-foot"><strong>₺289,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Hışırdayan Kedi Oyun Tüneli" data-price="349.00"><div class="product-pic"><img src="product-photos/cat-tunnel.jpg" alt="Hışırdayan Kedi Oyun Tüneli" loading="lazy" decoding="async"><span class="tag">Oyun zamanı</span></div><div class="product-info"><small>KEDİ</small><h3>Hışırdayan Kedi Oyun Tüneli</h3><div class="product-foot"><strong>₺349,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Filtreli Kedi Su Pınarı" data-price="799.00"><div class="product-pic"><img src="product-photos/cat-fountain.jpg" alt="Su pınarından su içen kedi" loading="lazy" decoding="async"><span class="tag">Günlük bakım</span></div><div class="product-info"><small>KEDİ</small><h3>Filtreli Kedi Su Pınarı</h3><div class="product-foot"><strong>₺799,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kedi" data-name="Yumuşak Uçlu Tarama Fırçası" data-price="199.00"><div class="product-pic"><img src="product-photos/cat-brush.jpg" alt="Yumuşak Uçlu Tarama Fırçası" loading="lazy" decoding="async"><span class="tag">Bakım</span></div><div class="product-info"><small>KEDİ</small><h3>Yumuşak Uçlu Tarama Fırçası</h3><div class="product-foot"><strong>₺199,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Kuzu Etli Yetişkin Köpek Maması" data-price="739.00"><div class="product-pic"><img src="product-photos/dog-food.jpg" alt="Kuzu Etli Yetişkin Köpek Maması" loading="lazy" decoding="async"><span class="tag">Güçlü içerik</span></div><div class="product-info"><small>KÖPEK</small><h3>Kuzu Etli Yetişkin Köpek Maması</h3><div class="product-foot"><strong>₺739,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Yavru Köpek Gelişim Maması" data-price="599.00"><div class="product-pic"><img src="product-photos/dog-puppy-food.jpg" alt="Yavru Köpek Gelişim Maması" loading="lazy" decoding="async"><span class="tag">Yavru dostlara</span></div><div class="product-info"><small>KÖPEK</small><h3>Yavru Köpek Gelişim Maması</h3><div class="product-foot"><strong>₺599,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Fırınlanmış Ödül Bisküvisi" data-price="189.00"><div class="product-pic"><img src="product-photos/dog-biscuit.jpg" alt="Fırınlanmış Ödül Bisküvisi" loading="lazy" decoding="async"><span class="tag">Ödül zamanı</span></div><div class="product-info"><small>KÖPEK</small><h3>Fırınlanmış Ödül Bisküvisi</h3><div class="product-foot"><strong>₺189,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Dayanıklı Çiğneme Oyuncağı" data-price="259.00"><div class="product-pic"><img src="product-photos/dog-chew.jpg" alt="Dayanıklı Çiğneme Oyuncağı" loading="lazy" decoding="async"><span class="tag">Dayanıklı</span></div><div class="product-info"><small>KÖPEK</small><h3>Dayanıklı Çiğneme Oyuncağı</h3><div class="product-foot"><strong>₺259,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Hafif Köpek Yağmurluğu" data-price="449.00"><div class="product-pic"><img src="product-photos/dog-raincoat.jpg" alt="Hafif Köpek Yağmurluğu" loading="lazy" decoding="async"><span class="tag">Yağmurlu günler</span></div><div class="product-info"><small>KÖPEK</small><h3>Hafif Köpek Yağmurluğu</h3><div class="product-foot"><strong>₺449,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Katlanabilir Seyahat Matı" data-price="569.00"><div class="product-pic"><img src="product-photos/dog-mat.jpg" alt="Katlanabilir Seyahat Matı" loading="lazy" decoding="async"><span class="tag">Yol arkadaşı</span></div><div class="product-info"><small>KÖPEK</small><h3>Katlanabilir Seyahat Matı</h3><div class="product-foot"><strong>₺569,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Konforlu Taşıma Çantası" data-price="1090.00"><div class="product-pic"><img src="product-photos/dog-carrier.jpg" alt="Konforlu Taşıma Çantası" loading="lazy" decoding="async"><span class="tag">Konforlu</span></div><div class="product-info"><small>KÖPEK</small><h3>Konforlu Taşıma Çantası</h3><div class="product-foot"><strong>₺1.090,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="köpek" data-name="Hassas Ciltler İçin Şampuan" data-price="279.00"><div class="product-pic"><img src="product-photos/dog-shampoo.jpg" alt="Hassas Ciltler İçin Şampuan" loading="lazy" decoding="async"><span class="tag">Nazik bakım</span></div><div class="product-info"><small>KÖPEK</small><h3>Hassas Ciltler İçin Şampuan</h3><div class="product-foot"><strong>₺279,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kuş" data-name="Dengeli Muhabbet Kuşu Yemi" data-price="159.00"><div class="product-pic"><img src="product-photos/bird-seed.jpg" alt="Yem yiyen muhabbet kuşu" loading="lazy" decoding="async"><span class="tag">Günlük beslenme</span></div><div class="product-info"><small>KUŞ</small><h3>Dengeli Muhabbet Kuşu Yemi</h3><div class="product-foot"><strong>₺159,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kuş" data-name="Renkli Kuş Salıncağı" data-price="129.00"><div class="product-pic"><img src="product-photos/bird-swing.jpg" alt="Renkli Kuş Salıncağı" loading="lazy" decoding="async"><span class="tag">Neşeli</span></div><div class="product-info"><small>KUŞ</small><h3>Renkli Kuş Salıncağı</h3><div class="product-foot"><strong>₺129,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kuş" data-name="Pratik Kafes Banyoluğu" data-price="119.00"><div class="product-pic"><img src="product-photos/bird-bath.jpg" alt="Banyo yapan yeşil papağan" loading="lazy" decoding="async"><span class="tag">Temizlik</span></div><div class="product-info"><small>KUŞ</small><h3>Pratik Kafes Banyoluğu</h3><div class="product-foot"><strong>₺119,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="kuş" data-name="Kuşlar İçin Vitamin Desteği" data-price="199.00"><div class="product-pic"><img src="product-photos/bird-vitamin.jpg" alt="Kuşlar İçin Vitamin Desteği" loading="lazy" decoding="async"><span class="tag">Destekleyici</span></div><div class="product-info"><small>KUŞ</small><h3>Kuşlar İçin Vitamin Desteği</h3><div class="product-foot"><strong>₺199,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="küçük-dostlar" data-name="Seçilmiş Tavşan Kuru Otu" data-price="229.00"><div class="product-pic"><img src="product-photos/rabbit-hay.jpg" alt="Ot yiyen tavşan" loading="lazy" decoding="async"><span class="tag">Doğal</span></div><div class="product-info"><small>KÜÇÜK DOSTLAR</small><h3>Seçilmiş Tavşan Kuru Otu</h3><div class="product-foot"><strong>₺229,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+      <article class="product reveal" data-category="küçük-dostlar" data-name="Ahşap Kemirme Oyuncağı" data-price="139.00"><div class="product-pic"><img src="product-photos/rabbit-chew.jpg" alt="Ahşap Kemirme Oyuncağı" loading="lazy" decoding="async"><span class="tag">Oyun zamanı</span></div><div class="product-info"><small>KÜÇÜK DOSTLAR</small><h3>Ahşap Kemirme Oyuncağı</h3><div class="product-foot"><strong>₺139,00</strong><button class="add-to-cart" type="button" aria-label="Sepete ekle">＋</button></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- Sepet -->
+<aside class="cart-panel" id="sepet" aria-label="Alışveriş sepeti" aria-hidden="true">
+  <div class="cart-heading"><div><span class="eyebrow">ALIŞVERİŞİNİZ</span><h3>Sepetim</h3></div><button class="cart-close" type="button" aria-label="Sepeti kapat">×</button></div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="coupon-box"><label for="coupon-input">Kupon kodu</label><div class="coupon-row"><input id="coupon-input" type="text" placeholder="Kupon kodunu yazın" autocomplete="off"><button id="apply-coupon" type="button">Uygula</button></div><small id="coupon-message">PATİ10 koduyla %10 indirim.</small></div>
+  <div class="cart-totals">
+    <div><span>Ara toplam</span><strong id="cart-subtotal">₺0,00</strong></div>
+    <div id="discount-row" hidden><span>Kupon indirimi (%10)</span><strong id="cart-discount">−₺0,00</strong></div>
+    <div><span>Kargo</span><strong id="cart-shipping">₺49,90</strong></div>
+    <div class="cart-total"><span>Toplam</span><strong id="cart-total">₺0,00</strong></div>
+  </div>
+  <p class="shipping-progress" id="shipping-progress"></p>
+  <button class="checkout-button" id="checkout-button" type="button" disabled>Sepetiniz boş</button>
+  <p class="cart-disclaimer">Ödeme altyapısı henüz bağlı değil. Bu site şu anda demo amaçlıdır.</p>
+</aside>
+<div class="cart-backdrop" id="cart-backdrop"></div>
+
+<!-- Sipariş önizleme (gerçek ödeme tahsil edilmez) -->
+<div class="payment-overlay" id="checkout-modal" hidden>
+  <section class="payment-sheet" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+    <button class="payment-close" id="payment-close" type="button" aria-label="Kapat">×</button>
+    <span class="eyebrow">SİPARİŞ ÖNİZLEMESİ</span>
+    <h2 id="checkout-title">Teslimat bilgileri</h2>
+    <p class="payment-intro">Aşağıdaki demo formu gerçek sipariş veya ödeme oluşturmaz.</p>
+    <div class="demo-warning"><strong>Önemli:</strong> Gerçek kart bilgisi girmeyin. Bu statik sitede iyzico/PayTR gibi bir ödeme sağlayıcısı veya sunucu bağlantısı bulunmuyor.</div>
+    <form class="fake-card-fields" id="checkout-form">
+      <label for="customer-name">Ad soyad<input id="customer-name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Adınız Soyadınız"></label>
+      <label for="customer-email">E-posta<input id="customer-email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="ornek@eposta.com"></label>
+      <label for="customer-phone">Telefon<input id="customer-phone" name="phone" type="tel" autocomplete="tel" required maxlength="20" placeholder="05xx xxx xx xx"></label>
+      <label for="customer-address">Teslimat adresi<textarea id="customer-address" name="address" autocomplete="street-address" required maxlength="300" rows="3" placeholder="Mahalle, sokak, bina ve daire bilgisi"></textarea></label>
+      <fieldset class="payment-options"><legend>Ödeme tercihi (demo)</legend><label><input type="radio" name="payment-method" value="card" checked> Kart (ödeme sağlayıcısı entegrasyonu gerekli)</label><label><input type="radio" name="payment-method" value="delivery"> Kapıda ödeme (demo)</label></fieldset>
+      <button class="demo-pay-button" id="demo-pay" type="submit">Demo sipariş önizlemesi oluştur</button>
+    </form>
+    <p class="payment-result" id="payment-result" hidden></p>
+    <button class="payment-cancel" id="payment-cancel" type="button">Sepete geri dön</button>
+  </section>
+</div>
+
+<section class="section" id="hakkimizda">
+  <div class="wrap benefits">
+    <div class="reveal"><span>🚚</span><h3>Ücretsiz kargo</h3><p>₺750 üzeri alışverişlerde kapında.</p></div>
+    <div class="reveal"><span>🌿</span><h3>Özenle seçilmiş</h3><p>Güvenilir ve kaliteli ürünler.</p></div>
+    <div class="reveal"><span>💛</span><h3>Sevgiyle paketlenir</h3><p>Her siparişe küçük bir mutluluk.</p></div>
+    <div class="reveal"><span>💬</span><h3>Yanındayız</h3><p>Dostunuz için bize danışabilirsiniz.</p></div>
+  </div>
+</section>
+
+<section class="section promo-wrap">
+  <div class="wrap promo reveal">
+    <div><span class="eyebrow">İLK SİPARİŞİNİZE ÖZEL</span><h2>Dostunuza küçük bir<br>merhaba hediyesi.</h2><p>Sepette PATİ10 koduyla %10 indirim fırsatını kullanın.</p></div>
+    <a class="btn white" href="#urunler">Alışverişe başla →</a>
+  </div>
+</section>
+
+<section class="section tinted" id="iletisim">
+  <div class="wrap newsletter reveal">
+    <div><h2>Pati haberlerine katıl 🐾</h2><p>Yeni ürünler ve minik sürprizler için bize ulaşın.</p></div>
+    <a class="btn" href="mailto:merhaba@pativedost.com">Bize ulaşın →</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div><a class="logo foot-logo" href="#"><span class="mark">🐾</span>Pati <i>&</i> Dost</a><p>Minik dostlarımızın hayatına mutluluk, oyun ve bolca sevgi katmak için buradayız.</p></div>
+    <div><b>Keşfet</b><a href="#urunler">Tüm ürünler</a><a href="#kategoriler" data-footer-filter="kedi">Kediler</a><a href="#kategoriler" data-footer-filter="köpek">Köpekler</a></div>
+    <div><b>Yardım</b><a href="#iletisim">Bize ulaşın</a><a href="mailto:merhaba@pativedost.com?subject=Kargo%20ve%20iade">Kargo ve iade</a><a href="mailto:merhaba@pativedost.com?subject=Gizlilik">Gizlilik hakkında</a></div>
+    <div><b>Bize ulaşın</b><a href="mailto:merhaba@pativedost.com">merhaba@pativedost.com</a><span class="placeholder-note">Telefon bilgisi eklenebilir</span><span>Hafta içi 09.00–18.00</span></div>
+  </div>
+  <div class="wrap copyright">© <span id="year"></span> Pati & Dost. Sevgiyle hazırlandı. 🐾</div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js" defer></script>
+</body>
+</html>
